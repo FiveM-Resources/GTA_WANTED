@@ -1,0 +1,311 @@
+
+/*Box Announce : 1080P*/
+
+html, body 
+{
+    margin: 0;
+    padding: 4em 1em;
+}
+
+#Box-container
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex: 1;
+    border-radius: 3px;
+    margin-top: 2%;
+    margin-left: 35%;
+    width: 600px;
+    height: 200px;
+    background-image: url("../img/background.png");
+}
+
+
+.logo
+{
+    position: absolute;
+    top: 25%;
+    left: 73%;
+    height: 102px;
+    width: 102px;
+}
+
+.nameText
+{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: gold;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.FirstName
+{
+    margin-top: 85px;
+    margin-left: 90px;
+    justify-content: space-around;
+    height: 25px;
+    max-width: 250px;
+    width: auto;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: rgb(0, 217, 255);
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.SecondName
+{
+    margin-top: 85px;
+    margin-left: 7px;
+    height: 25px;
+    max-width: 250px;
+    width: auto;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: rgb(0, 217, 255);
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.reason
+{
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    color: gold;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reasonWanted
+{
+    position: absolute;
+    top: 68%;
+    left: 15%;
+    height: 25px;
+    max-width: 350px;
+    width: auto;
+    text-transform: uppercase;
+    color: rgb(0, 217, 255);
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+@media screen and (max-width: 1280px){
+    html, body 
+    {
+        margin: 0;
+        padding: 1em 1em;
+    }
+
+    #Box-container
+    {   
+        display: flex;
+        position: relative;
+        top: 46px;
+        left: -80px;
+        flex-direction: row;
+        flex: 1;
+        border-radius: 3px;
+        width: 495px;
+        height: 140px;
+        background-image: url("../img/background_720.png");
+    }
+
+    .logo
+    {
+        position: absolute;
+        top: 25%;
+        left: 73%;
+        height: 102px;
+        width: 102px;
+    }
+
+    .nameText
+    {
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        color: gold;
+        font-size: 16px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .FirstName
+    {
+        margin-top: 63px;
+        margin-left: 100px;
+        justify-content: space-around;
+        height: 25px;
+        max-width: 250px;
+        width: auto;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        color: rgb(0, 217, 255);
+        font-size: 16px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .SecondName
+    {
+        margin-top: 63px;
+        margin-left: 7px;
+        height: 25px;
+        max-width: 250px;
+        width: auto;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        color: rgb(0, 217, 255);
+        font-size: 16px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    .reason
+    {
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        color: gold;
+        font-size: 16px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .reasonWanted
+    {
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        height: 25px;
+        max-width: 350px;
+        width: auto;
+        text-transform: uppercase;
+        color: rgb(0, 217, 255);
+        font-size: 16px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Form : */
+.form{
+   
+    width:340px;
+    height:470px;
+    background:rgba(0, 0, 0, 0.9);
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:auto;padding:20px 30px;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+}
+
+form > h2
+{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#fff;
+    border-bottom:3px solid #2e2e2e;
+    text-shadow: black 2px 1px;
+}
+
+input
+{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #2e2e2e;
+    color: #fff;
+}
+
+input:focus
+{
+    border-bottom:2px solid #78788c;
+}
+
+form > p:before
+{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#fff;
+}
+
+button
+{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;
+    color:#fff;
+    cursor:pointer;
+    transition:all .3s;
+}
+
+select.round {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      radial-gradient(#ddd 70%, transparent 72%);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+  }
+
+button:hover
+{
+    background:#78788c;
+    color:#fff;
+}
